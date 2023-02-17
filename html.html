@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GDI2 Mouse</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="java.js"></script>
+
+<body>
+  <div class="flex">
+    <div class="flexed">
+      <div class="sticky main-mouse mouse-left">
+        <img class="white-mouse" src="images/mouse1.png" style="width:170px;height:375px">
+        <img class="gray-mouse" src="images/mouse1gray.png" style="width:170px;height:375px" onclick="play1()">
+        <audio id="audio1" src="sounds/click1.mp3"></audio>
+      </div>
+      <div class="sticky main-mouse mouse-right">
+        <img class="white-mouse" src="images/mouse2.png" style="width:170px;height:375px">
+        <img class="gray-mouse" src="images/mouse2gray.png" style="width:170px;height:375px" onclick="play2()">
+        <audio id="audio2" src="sounds/click2.mp3"></audio>
+      </div>
+      <div class="sticky mouse4 side-mouse">
+        <img class="white-mouse" src="images/mouse4.png" style="width:15px;height:112.5px">
+        <img class="gray-mouse" src="images/mouse4gray.png" style="width:15px;height:112.5px" onclick="play3()">
+        <audio id="audio3" src="sounds/click3.mp3"></audio>
+      </div>
+      <div class="sticky mouse5 side-mouse">
+        <img class="white-mouse" src="images/mouse5.png" style="width:15px;height:120px">
+        <img class="gray-mouse" src="images/mouse5gray.png" style="width:15px;height:120px" onclick="play4()">
+        <audio id="audio4" src="sounds/click4.mp3"></audio>
+      </div>
+    </div>
+    <div class="scroll scroll-flexed">
+    </div>
+  </div>
+</body>
